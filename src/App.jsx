@@ -64,9 +64,11 @@ const App = () => {
   return (
     <div>
       <h1>PhoneBook</h1>
+      <hr/>
       <ContactForm /> {/* /* addContact={handleAddContact} */}
       <h3>Find your contact by name or number</h3>
-      <SearchBox /> {/* filter={filter} changeFilter={handleChangeFilter} */}
+      <SearchBox />{/* filter={filter} changeFilter={handleChangeFilter} */}
+      <hr/>
       <ContactList /> {/* contacts={filteredContacts()}
       deleteContact={handleDeleteContact} */}
     </div>
